@@ -30,7 +30,7 @@ public class Jay_IO {
 		return buffer;
 	}
 	
-	public void writeToFile(ArrayList<String> fileLines, String fileName){
+	public static void writeToFile(ArrayList<String> fileLines, String fileName){
 		FileWriter writer;	//FileWriter to write to file 
 		try {
 			writer = new FileWriter(new File(fileName));	//open file at path named fileName
